@@ -23,6 +23,7 @@ class CreateClientesTable extends Migration
             $table->string('pais');
             $table->string('ciudad');
             $table->string('correo');
+            $table->string('password');
             $table->timestamps();
         });
     }
